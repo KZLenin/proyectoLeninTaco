@@ -16,7 +16,7 @@ const FormularioRegistro = () => {
   const handleSubmit = (e) => {
     e.preventDefault(); // Evita que se recargue la página
     setMensaje(
-      `¡Gracias, ${nombre}!\nTus datos han sido registrados.\nMateria: ${materia}\nFecha: ${fecha}\nCreditos:${creditos} \nDocente: ${creditos}`
+      `¡Gracias, ${nombre}!\nTus datos han sido registrados.\nMateria: ${materia}\nFecha: ${fecha}\nCreditos:${creditos} \nDocente: ${docente}`
     );
   };
 
