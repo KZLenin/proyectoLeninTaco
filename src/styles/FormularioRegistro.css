@@ -1,0 +1,60 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  form label {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input:focus {
+    outline: none;
+    border-color: #3fe7f3;
+  }
+  
+  form button {
+    background-color: #3fe7f3;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #33c5d9;
+  }
+  
+  /* Estilo para el mensaje de éxito */
+  form .mensaje {
+    margin-top: 20px;
+    color: green;
+    font-size: 1rem;
+    white-space: pre-line;
+  }
+  
+  /* Agrega un pequeño espacio entre el título y el formulario */
+  h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
